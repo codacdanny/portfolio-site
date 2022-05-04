@@ -5,10 +5,10 @@ const HeaderText = () => {
   return (
     <Flex
       textAlign="center"
-      mb="10rem"
       justify="center"
       alignItems="center"
       flexDir="column"
+      h="75vh"
     >
       <Heading
         as="h1"

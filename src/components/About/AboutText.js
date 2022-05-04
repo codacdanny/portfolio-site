@@ -20,9 +20,9 @@ const AboutText = () => {
           <Text fontSize="1.8rem" p="4rem" lineHeight="tall">
             Hi my name is Daniel Chinemerem, I am a frontend developer. I am an
             undergraduate studying pure and applied mathematics in FUTO. I
-            started my coding career nearly 3 years ago, I have interned with a
-            few companies where I collaborated with other developers and I have
-            been mentored by some great developers. I am currently working on
+            started my coding career 2 years ago, I have interned with a few
+            companies where I collaborated with other developers and I have been
+            mentored by some great developers. I am currently working on
             improving my skill set and becoming a fullstack developer in no
             time. Currently, I use HTML, CSS, Javascript and front technologies
             like React and chakra UI to produce responsive websites and web apps
