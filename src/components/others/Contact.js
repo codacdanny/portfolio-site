@@ -6,9 +6,9 @@ import { GrLinkedin } from 'react-icons/gr';
 import { GoMarkGithub } from 'react-icons/go';
 const Contact = () => {
   return (
-    <Box bg="yellow.700" p="7rem">
-      <Container height="100%" mx="auto" my="0">
-        <Heading as="h3" fontSize="3rem" textAlign="center" mb="5rem">
+    <Box p="5rem" minW="85%">
+      <Container mx="auto" my="0">
+        <Heading as="h2" fontSize="3rem" textAlign="center" mb="5rem">
           Let's Connect
         </Heading>
         <Flex justifyContent="space-around" alignItems="center">

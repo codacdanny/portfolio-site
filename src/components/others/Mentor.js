@@ -5,7 +5,7 @@ const Mentor = () => {
   return (
     <Box align="center">
       <Heading
-        as="h3"
+        as="h2"
         textAlign="center"
         fontSize="3.5rem"
         mb="2rem"

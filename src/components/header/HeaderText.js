@@ -1,32 +1,35 @@
 import React from 'react';
-import { Box, Text } from '@chakra-ui/react';
+import { Flex, Heading } from '@chakra-ui/react';
 
 const HeaderText = () => {
   return (
-    <Box textAlign="center" mt="15rem">
-      <Text
+    <Flex
+      textAlign="center"
+      mb="10rem"
+      justify="center"
+      alignItems="center"
+      flexDir="column"
+    >
+      <Heading
         as="h1"
         className="fadeInDown"
-        position="relative"
-        bgGradient="linear(to-l, #FEECE9, #CCD1E4)"
-        bgClip="text"
         fontSize="4.5rem"
         fontWeight="medium"
+        zIndex="banner"
+        mb="2rem"
       >
         Hi, I'm Daniel.
-      </Text>
-      <Text
+      </Heading>
+      <Heading
         as="h2"
         className="zoomIn"
-        position="relative"
-        bgGradient="linear(to-l, #FEECE9, #CCD1E4)"
-        bgClip="text"
         fontSize="3.5rem"
         fontWeight="light"
+        zIndex="banner"
       >
         Let's Get to Know me.
-      </Text>
-    </Box>
+      </Heading>
+    </Flex>
   );
 };
 
