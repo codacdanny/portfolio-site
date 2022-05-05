@@ -12,6 +12,7 @@ html {
 body {
   background-color: #0f0f0f !important;
   color: #fff8f8 !important;
+  font-family: Poppins, sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,400&display=swap');
 
@@ -92,5 +93,6 @@ h1,
 h2 {
   background: linear-gradient(to top, #ffe838, #fd57bf) !important;
   -webkit-background-clip: text !important;
+  background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }

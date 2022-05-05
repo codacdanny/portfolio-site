@@ -27,8 +27,8 @@ const AboutText = () => {
             time. Currently, I use HTML, CSS, Javascript and front technologies
             like React and chakra UI to produce responsive websites and web apps
             that provide users the best and most appropriate experience suited
-            for their device. I also have basic knowledge of C and shell
-            scripting.
+            for their device. I am a mathematician, critical thinker and also
+            have basic knowledge of C and shell scripting.
           </Text>
         </Box>
       </Container>
