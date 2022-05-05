@@ -7,7 +7,7 @@ const Nav = () => {
       <Flex justifyContent="center" alignItems="center">
         <Box display="flex" fontSize="1.7rem">
           <Link
-            href="#"
+            href="#about"
             mr="3rem"
             className="nav-link"
             p="0.5rem"
@@ -20,7 +20,7 @@ const Nav = () => {
             About
           </Link>
           <Link
-            href="#"
+            href="#projects"
             mr="3rem"
             className="nav-link"
             p="0.5rem"
@@ -33,7 +33,7 @@ const Nav = () => {
             Project Tools
           </Link>
           <Link
-            href="#"
+            href="#mentor"
             mr="3rem"
             className="nav-link"
             p="0.5rem"
@@ -46,7 +46,7 @@ const Nav = () => {
             Mentorship/Guide
           </Link>
           <Link
-            href="#"
+            href="#contact"
             mr="3rem"
             className="nav-link"
             p="0.5rem"

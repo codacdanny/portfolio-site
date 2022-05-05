@@ -3,7 +3,7 @@ import React from 'react';
 
 const AboutText = () => {
   return (
-    <Box mb="6rem">
+    <Box mb="6rem" id="about">
       <Container maxW="container.xl" my="0" mx="auto">
         <Heading
           as="h2"

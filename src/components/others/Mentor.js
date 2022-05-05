@@ -3,7 +3,7 @@ import React from 'react';
 
 const Mentor = () => {
   return (
-    <Box align="center">
+    <Box align="center" id="mentor">
       <Heading
         as="h2"
         textAlign="center"

@@ -6,7 +6,7 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <Box>
+    <Box id="projects">
       <Container maxWidth="container.xl">
         <Text
           as="h2"
