@@ -14,6 +14,7 @@ const Contact = () => {
         <LinkBox>
           <Flex justifyContent="space-around" alignItems="center" flexDir="row">
             <Link
+              padding="1rem"
               href="https://wa.me/+2348156438520"
               mr="6rem"
               _hover={{
@@ -24,6 +25,7 @@ const Contact = () => {
               <SiWhatsapp size="6rem" />
             </Link>
             <Link
+              padding="1rem"
               href="https://twitter.com/Danny__Presh"
               mr="6rem"
               _hover={{
@@ -34,6 +36,7 @@ const Contact = () => {
               <FaTwitter size="6rem" />
             </Link>
             <Link
+              padding="1rem"
               href="https://web.facebook.com/precious.daniel.7731/"
               mr="6rem"
               _hover={{
@@ -44,6 +47,7 @@ const Contact = () => {
               <FaFacebookF size="6rem" />
             </Link>
             <Link
+              padding="1rem"
               href="https://www.linkedin.com/in/daniel-chinemerem-bb1757209/"
               mr="6rem"
               _hover={{
@@ -54,6 +58,7 @@ const Contact = () => {
               <GrLinkedin size="6rem" />
             </Link>
             <Link
+              padding="1rem"
               href="https://github.com/codacdanny"
               _hover={{
                 bgGradient: 'linear(to-b, #ffe838, #fd57bf)',
