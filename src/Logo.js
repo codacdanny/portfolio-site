@@ -32,7 +32,6 @@ export const Logo = props => {
       w="90vw"
       h="70vh"
       zIndex="hide"
-      bgColor="red"
       mt="5rem"
     >
       <Image animation={animation} src={logo} {...props} />
