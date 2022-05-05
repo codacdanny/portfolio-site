@@ -24,7 +24,7 @@ const HeaderText = () => {
           fontSize="4.5rem"
           fontWeight="medium"
           zIndex="banner"
-          mb="2rem"
+          mb="1.7rem"
         >
           Hi, I'm Daniel.
         </Heading>
@@ -36,6 +36,7 @@ const HeaderText = () => {
           fontWeight="light"
           zIndex="banner"
           fontFamily="cursive"
+          p="1rem"
         >
           Let's get to know me.
         </Heading>
