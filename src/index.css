@@ -87,3 +87,12 @@ h2 {
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
+
+.center {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  margin: 0 auto;
+}
