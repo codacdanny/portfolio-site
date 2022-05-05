@@ -1,4 +1,4 @@
-import { Box, Heading, Container, Flex } from '@chakra-ui/react';
+import { Box, Heading, Container, Flex, LinkBox, Link } from '@chakra-ui/react';
 import React from 'react';
 import { SiWhatsapp } from 'react-icons/si';
 import { FaTwitter, FaFacebookF } from 'react-icons/fa';
@@ -11,23 +11,59 @@ const Contact = () => {
         <Heading as="h2" fontSize="3rem" textAlign="center" mb="5rem">
           Let's Connect
         </Heading>
-        <Flex justifyContent="space-around" alignItems="center">
-          <Box mr="6rem">
-            <SiWhatsapp size="6rem" />
-          </Box>
-          <Box mr="6rem">
-            <FaTwitter size="6rem" />
-          </Box>
-          <Box mr="6rem">
-            <FaFacebookF size="6rem" />
-          </Box>
-          <Box mr="6rem">
-            <GrLinkedin size="6rem" />
-          </Box>
-          <Box>
-            <GoMarkGithub size="6rem" />
-          </Box>
-        </Flex>
+        <LinkBox>
+          <Flex justifyContent="space-around" alignItems="center" flexDir="row">
+            <Link
+              href=""
+              mr="6rem"
+              _hover={{
+                bgGradient: 'linear(to-b, #ffe838, #fd57bf)',
+                borderRadius: '7px',
+              }}
+            >
+              <SiWhatsapp size="6rem" />
+            </Link>
+            <Link
+              href=""
+              mr="6rem"
+              _hover={{
+                bgGradient: 'linear(to-b, #ffe838, #fd57bf)',
+                borderRadius: '7px',
+              }}
+            >
+              <FaTwitter size="6rem" />
+            </Link>
+            <Link
+              href=""
+              mr="6rem"
+              _hover={{
+                bgGradient: 'linear(to-b, #ffe838, #fd57bf)',
+                borderRadius: '7px',
+              }}
+            >
+              <FaFacebookF size="6rem" />
+            </Link>
+            <Link
+              href="www.linkedin.com/in/daniel-chinemerem-bb1757209"
+              mr="6rem"
+              _hover={{
+                bgGradient: 'linear(to-b, #ffe838, #fd57bf)',
+                borderRadius: '7px',
+              }}
+            >
+              <GrLinkedin size="6rem" />
+            </Link>
+            <Link
+              href=""
+              _hover={{
+                bgGradient: 'linear(to-b, #ffe838, #fd57bf)',
+                borderRadius: '7px',
+              }}
+            >
+              <GoMarkGithub size="6rem" />
+            </Link>
+          </Flex>
+        </LinkBox>
       </Container>
     </Box>
   );

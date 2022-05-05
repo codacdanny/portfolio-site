@@ -13,9 +13,8 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <VStack spacing={8}>
+        <Nav />
         <Box textAlign="center" fontSize="xl">
-          <Nav />
-
           <Flex display="flex" flexDir="row">
             <Logo h="10vmin" pointerEvents="none" opacity="0.3" />
           </Flex>

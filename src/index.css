@@ -79,16 +79,6 @@ body {
   }
 }
 
-.nav-link:hover {
-  transform: scale(1.2);
-  transition: all 0.2s;
-}
-.nav-link:active,
-.nav-link:focus {
-  transform: scale(1);
-  transition: all 0.2s;
-}
-
 h1,
 h2 {
   background: linear-gradient(to top, #ffe838, #fd57bf) !important;

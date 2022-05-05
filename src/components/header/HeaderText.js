@@ -3,7 +3,14 @@ import { Box, Flex, Heading } from '@chakra-ui/react';
 
 const HeaderText = () => {
   return (
-    <Box pos="absolute" top="0%" left="38%" zIndex="banner" translate="-50%">
+    <Box
+      pos="absolute"
+      top="2%"
+      left="36%"
+      zIndex="banner"
+      mx="auto"
+      textAlign="center"
+    >
       <Flex
         textAlign="center"
         justify="center"
