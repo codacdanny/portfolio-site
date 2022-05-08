@@ -18,7 +18,14 @@ const Projects = () => {
         >
           Projects
         </Text>
-        <Flex gap="1rem" justifyContent="center">
+        <Flex
+          gap="1rem"
+          justifyContent="center"
+          flexDir={{
+            base: 'column',
+            lg: 'row',
+          }}
+        >
           <Box textAlign="center" fontSize="2rem">
             <Image
               src={meme}

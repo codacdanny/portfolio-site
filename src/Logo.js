@@ -29,29 +29,50 @@ export const Logo = props => {
       display="flex"
       flexDir="row"
       justifyContent="space-evenly"
-      w="90vw"
-      h="70vh"
+      w={{
+        base: '40vw',
+        lg: '90vw',
+      }}
+      h={{
+        base: '50vh',
+        lg: '70vh',
+      }}
       zIndex="hide"
       mt="5rem"
     >
       <Image animation={animation} src={logo} {...props} />
-      <Image animation={animation} src={csslogo} {...props} mt="10%" />
-      <Image animation={animation} src={gitlogo} {...props} mt="14%" />
+      <Image
+        animation={animation}
+        src={csslogo}
+        {...props}
+        mt={{ base: '55%', lg: '10%' }}
+      />
+      <Image
+        animation={animation}
+        src={gitlogo}
+        {...props}
+        mt={{ base: '75%', lg: '14%' }}
+      />
       <Image
         animation={animation}
         src={htmllogo}
         {...props}
-        mt="30%"
-        mr="12%"
+        mt={{ base: '85%', lg: '30%' }}
+        mr={{ base: '16%', lg: '12%' }}
       />
       <Image
         animation={animation}
         src={reactlogo}
         {...props}
-        mt="25%"
-        mr="10%"
+        mt={{ base: '90%', lg: '30%' }}
+        mr={{ base: '25%', lg: '10%' }}
       />
-      <Image animation={animation} src={jslogo} {...props} mt="20%" />
+      <Image
+        animation={animation}
+        src={jslogo}
+        {...props}
+        mt={{ base: '45%', lg: '20%' }}
+      />
     </Flex>
   );
 };

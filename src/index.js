@@ -8,7 +8,7 @@ import './index.css';
 
 ReactDOM.render(
   <StrictMode>
-    <ColorModeScript initialColorMode={theme.config.initialColorMode} />
+    <ColorModeScript initialColorMode={theme} />
 
     <App />
   </StrictMode>,

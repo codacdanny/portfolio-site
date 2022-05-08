@@ -2,21 +2,44 @@ import React from 'react';
 import { Box, Flex, Heading } from '@chakra-ui/react';
 
 const HeaderText = () => {
+  const b = ` position: absolute;
+top: 14%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 1;
+margin: 0 auto;`;
   return (
-    <Box className="center">
+    <Box
+      className="center"
+      top={{
+        base: '3%',
+        lg: '14%',
+      }}
+      left={{
+        base: '46%',
+        lg: '50%',
+      }}
+      zIndex="banner"
+    >
       <Flex
         textAlign="center"
         justify="center"
         alignItems="center"
         flexDir="column"
-        h="75vh"
+        h={{
+          base: '40vh',
+          lg: '75vh',
+        }}
       >
         <Heading
           as="h1"
           className="fadeInDown"
-          fontSize="4.5rem"
+          fontSize={{
+            base: '2rem',
+            lg: '4.5rem',
+            xl: '5.5rem',
+          }}
           fontWeight="medium"
-          zIndex="banner"
           mb="1.7rem"
         >
           Hi, I'm Daniel.
@@ -25,9 +48,12 @@ const HeaderText = () => {
         <Heading
           as="h2"
           className="zoomIn"
-          fontSize="3.5rem"
+          fontSize={{
+            base: '1.5rem',
+            lg: '3.5rem',
+            xl: '4.5rem',
+          }}
           fontWeight="light"
-          zIndex="banner"
           fontFamily="cursive"
           p="1rem"
         >
