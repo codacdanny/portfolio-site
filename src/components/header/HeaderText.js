@@ -2,12 +2,6 @@ import React from 'react';
 import { Box, Flex, Heading } from '@chakra-ui/react';
 
 const HeaderText = () => {
-  const b = ` position: absolute;
-top: 14%;
-left: 50%;
-transform: translate(-50%, -50%);
-z-index: 1;
-margin: 0 auto;`;
   return (
     <Box
       className="center"
