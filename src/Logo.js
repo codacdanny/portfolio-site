@@ -30,7 +30,7 @@ export const Logo = props => {
       flexDir="row"
       justifyContent="space-evenly"
       w={{
-        base: '90vw',
+        base: '100vw',
         lg: '90vw',
       }}
       h={{
@@ -72,6 +72,7 @@ export const Logo = props => {
         src={jslogo}
         {...props}
         mt={{ base: '45%', lg: '20%' }}
+        mr={{ base: '5%', lg: '0%' }}
       />
     </Flex>
   );
