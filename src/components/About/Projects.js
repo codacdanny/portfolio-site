@@ -45,6 +45,7 @@ const Projects = () => {
               px="1.5rem"
               py="1.9rem"
               href="https://github.com/codacdanny/memegenerator"
+              colorScheme="blue"
             >
               Meme Generator
             </Button>
@@ -64,6 +65,7 @@ const Projects = () => {
               px="1.5rem"
               py="1.9rem"
               href="https://github.com/codacdanny/budget_app.git"
+              colorScheme="blue"
             >
               Budget Calculator
             </Button>
@@ -83,6 +85,7 @@ const Projects = () => {
               fontSize="1.5rem"
               px="1.5rem"
               py="1.9rem"
+              colorScheme="blue"
             >
               Pig Game Project
             </Button>
