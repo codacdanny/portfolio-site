@@ -6,13 +6,25 @@ import { GrLinkedin } from 'react-icons/gr';
 import { GoMarkGithub } from 'react-icons/go';
 const Contact = () => {
   return (
-    <Box p="5rem" id="contact">
+    <Box p="5rem" id="contact" w="100%">
       <Container mx="auto" my="0">
         <Heading as="h2" fontSize="3rem" textAlign="center" mb="5rem">
           Let's Connect
         </Heading>
-        <LinkBox>
-          <Flex justifyContent="space-around" alignItems="center" flexDir="row">
+        <LinkBox minW="100%" h="100%">
+          <Flex
+            justifyContent="space-around"
+            alignItems="center"
+            flexDir={{
+              base: 'column',
+              lg: 'row',
+            }}
+            fontSize={{
+              base: '4rem',
+              lg: '6rem',
+              xl: '7rem',
+            }}
+          >
             <Link
               padding="1rem"
               href="https://wa.me/+2348156438520"
@@ -22,12 +34,7 @@ const Contact = () => {
                 borderRadius: '7px',
               }}
             >
-              <SiWhatsapp
-                size={{
-                  lg: '2rem',
-                  base: '6rem',
-                }}
-              />
+              <SiWhatsapp />
             </Link>
             <Link
               padding="1rem"
@@ -38,12 +45,7 @@ const Contact = () => {
                 borderRadius: '7px',
               }}
             >
-              <FaTwitter
-                size={{
-                  lg: '6rem',
-                  base: '2rem',
-                }}
-              />
+              <FaTwitter />
             </Link>
             <Link
               padding="1rem"
@@ -54,12 +56,7 @@ const Contact = () => {
                 borderRadius: '7px',
               }}
             >
-              <FaFacebookF
-                size={{
-                  lg: '6rem',
-                  base: '2rem',
-                }}
-              />
+              <FaFacebookF />
             </Link>
             <Link
               padding="1rem"
@@ -70,12 +67,7 @@ const Contact = () => {
                 borderRadius: '7px',
               }}
             >
-              <GrLinkedin
-                size={{
-                  lg: '6rem',
-                  base: '2rem',
-                }}
-              />
+              <GrLinkedin />
             </Link>
             <Link
               padding="1rem"
@@ -86,13 +78,9 @@ const Contact = () => {
               }}
             >
               <GoMarkGithub
-                size={{
-                  lg: '6rem',
-                  base: '2rem',
-                }}
                 mr={{
-                  base: '6rem',
-                  lg: '0',
+                  base: '-6rem',
+                  lg: '6rem',
                 }}
               />
             </Link>

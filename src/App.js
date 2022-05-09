@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChakraProvider, Box, VStack, Flex } from '@chakra-ui/react';
+import { ChakraProvider, Box, VStack, Flex, Center } from '@chakra-ui/react';
 
 import { Logo } from './Logo';
 import Nav from './components/header/Nav';
@@ -15,21 +15,23 @@ function App() {
   console.log(theme);
   return (
     <ChakraProvider theme={theme}>
-      <VStack spacing={8}>
-        <Nav />
-        <Box textAlign="center">
-          <Flex display="flex" flexDir="row">
-            <Logo h="10vmin" pointerEvents="none" opacity="0.3" />
-          </Flex>
-          <HeaderText />
-        </Box>
+      <Center mx="auto" my="0" w="100vw">
+        <VStack spacing={8}>
+          <Nav />
+          <Box textAlign="center">
+            <Flex display="flex" flexDir="row">
+              <Logo h="10vmin" pointerEvents="none" opacity="0.3" />
+            </Flex>
+            <HeaderText />
+          </Box>
 
-        <AboutText />
-        <Projects />
-        <Mentor />
-        <Contact />
-        <Copyright />
-      </VStack>
+          <AboutText />
+          <Projects />
+          <Mentor />
+          <Contact />
+          <Copyright />
+        </VStack>
+      </Center>
     </ChakraProvider>
   );
 }

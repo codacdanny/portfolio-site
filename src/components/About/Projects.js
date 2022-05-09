@@ -7,7 +7,7 @@ import React from 'react';
 const Projects = () => {
   return (
     <Box id="projects">
-      <Container maxWidth="container.xl">
+      <Container maxWidth="100vw">
         <Text
           as="h2"
           textAlign="center"
