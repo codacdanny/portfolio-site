@@ -88,6 +88,7 @@ const Projects = () => {
               height="30rem"
               width={{
                 base: '25rem',
+
                 lg: '35rem',
               }}
               objectFit="cover"

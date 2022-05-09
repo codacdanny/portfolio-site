@@ -30,7 +30,10 @@ const AboutText = () => {
 
         <Box h="100%">
           <Text
-            fontSize="1.6rem"
+            fontSize={{
+              base: '1.6rem',
+              lg: '1.8rem',
+            }}
             p={{
               base: '1rem',
               lg: '4rem',

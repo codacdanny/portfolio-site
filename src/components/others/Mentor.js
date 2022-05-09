@@ -25,7 +25,10 @@ const Mentor = () => {
           lg: '5rem',
         }}
         maxWidth="100%"
-        fontSize="1.6rem"
+        fontSize={{
+          base: '1.6rem',
+          lg: '1.8rem',
+        }}
         fontFamily="Poppins"
         h="100%"
       >
