@@ -16,11 +16,11 @@ const Contact = () => {
             justifyContent="space-around"
             alignItems="center"
             flexDir={{
-              base: 'column',
+              base: 'row',
               lg: 'row',
             }}
             fontSize={{
-              base: '4rem',
+              base: '3rem',
               lg: '6rem',
               xl: '7rem',
             }}
@@ -28,7 +28,10 @@ const Contact = () => {
             <Link
               padding="1rem"
               href="https://wa.me/+2348156438520"
-              mr="6rem"
+              mr={{
+                base: '2rem',
+                lg: '6rem',
+              }}
               _hover={{
                 bgGradient: 'linear(to-b, #ffe838, #fd57bf)',
                 borderRadius: '7px',
@@ -39,7 +42,10 @@ const Contact = () => {
             <Link
               padding="1rem"
               href="https://twitter.com/Danny__Presh"
-              mr="6rem"
+              mr={{
+                base: '2rem',
+                lg: '6rem',
+              }}
               _hover={{
                 bgGradient: 'linear(to-b, #ffe838, #fd57bf)',
                 borderRadius: '7px',
@@ -50,7 +56,10 @@ const Contact = () => {
             <Link
               padding="1rem"
               href="https://web.facebook.com/precious.daniel.7731/"
-              mr="6rem"
+              mr={{
+                base: '2rem',
+                lg: '6rem',
+              }}
               _hover={{
                 bgGradient: 'linear(to-b, #ffe838, #fd57bf)',
                 borderRadius: '7px',
@@ -61,7 +70,10 @@ const Contact = () => {
             <Link
               padding="1rem"
               href="https://www.linkedin.com/in/daniel-chinemerem-bb1757209/"
-              mr="6rem"
+              mr={{
+                base: '2rem',
+                lg: '6rem',
+              }}
               _hover={{
                 bgGradient: 'linear(to-b, #ffe838, #fd57bf)',
                 borderRadius: '7px',
@@ -79,7 +91,7 @@ const Contact = () => {
             >
               <GoMarkGithub
                 mr={{
-                  base: '-6rem',
+                  base: '2rem',
                   lg: '6rem',
                 }}
               />

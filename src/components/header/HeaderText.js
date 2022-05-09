@@ -9,10 +9,7 @@ const HeaderText = () => {
         base: '3%',
         lg: '14%',
       }}
-      left={{
-        base: '50%',
-        lg: '50%',
-      }}
+      left="50%"
       zIndex="banner"
     >
       <Flex
