@@ -50,8 +50,7 @@ const Projects = () => {
             />
             <Button
               fontSize="1.5rem"
-              px="1.5rem"
-              py="1.55rem"
+              p="1.5rem"
               href="https://github.com/codacdanny/memegenerator"
               colorScheme="blue"
             >
@@ -73,8 +72,7 @@ const Projects = () => {
             />
             <Button
               fontSize="1.5rem"
-              px="1.5rem"
-              py="1.55rem"
+              p="1.5rem"
               href="https://github.com/codacdanny/budget_app.git"
               colorScheme="blue"
             >
@@ -98,8 +96,7 @@ const Projects = () => {
             <Button
               href="https://github.com/codacdanny/pig-game.git"
               fontSize="1.5rem"
-              px="1.5rem"
-              py="1.55rem"
+              p="1.5rem"
               colorScheme="blue"
             >
               Pig Game Project
