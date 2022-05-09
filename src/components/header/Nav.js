@@ -1,29 +1,16 @@
 import React from 'react';
 
-import {
-  Box,
-  Flex,
-  Link,
-  Menu,
-  MenuButton,
-  IconButton,
-  MenuList,
-  MenuItem,
-  Text,
-} from '@chakra-ui/react';
-import { HamburgerIcon } from '@chakra-ui/icons';
+import { Box, Flex, Link } from '@chakra-ui/react';
 
 const Nav = () => {
   return (
-    <Flex pos="relative" top="2rem" justifyContent="space-between" w="90vw">
-      <Text
-        visibility={{
-          base: 'hidden',
-        }}
-      >
-        dummy text
-      </Text>
-
+    <Flex
+      pos="relative"
+      top="2rem"
+      justifyContent="center"
+      alignItems="center"
+      w="100vw"
+    >
       <Flex>
         <Box
           visibility={{
@@ -35,6 +22,7 @@ const Nav = () => {
           <Link
             href="#about"
             className="nav-link"
+            mr="3rem"
             p="0.5rem"
             _hover={{
               bgGradient: 'linear(to-b, #ffe838, #fd57bf)',
@@ -72,7 +60,6 @@ const Nav = () => {
           </Link>
           <Link
             href="#contact"
-            mr="3rem"
             className="nav-link"
             p="0.5rem"
             _hover={{
@@ -85,87 +72,6 @@ const Nav = () => {
           </Link>
         </Box>
       </Flex>
-
-      <Menu>
-        <MenuButton
-          as={IconButton}
-          aria-label="Options"
-          icon={<HamburgerIcon />}
-          variant="outline"
-          fontSize="2rem"
-          p="0.3rem"
-          visibility={{
-            base: 'visible',
-            lg: 'hidden',
-          }}
-        />
-
-        <MenuList
-          h="90vh"
-          w="30vw"
-          display="flex"
-          flexDir="column"
-          justifyContent="space-between"
-        >
-          <MenuItem>
-            <Link
-              href="#about"
-              className="nav-link"
-              p="0.5rem"
-              _hover={{
-                bgGradient: 'linear(to-b, #ffe838, #fd57bf)',
-                bgClip: 'text',
-                transform: 'scale(1.2)',
-              }}
-            >
-              About
-            </Link>
-          </MenuItem>
-          <MenuItem>
-            <Link
-              href="#projects"
-              className="nav-link"
-              p="0.5rem"
-              _hover={{
-                bgGradient: 'linear(to-b, #ffe838, #fd57bf)',
-                bgClip: 'text',
-                transform: 'scale(1.2)',
-              }}
-            >
-              Project Tools
-            </Link>
-          </MenuItem>
-          <MenuItem>
-            <Link
-              href="#mentor"
-              className="nav-link"
-              p="0.5rem"
-              _hover={{
-                bgGradient: 'linear(to-b, #ffe838, #fd57bf)',
-                bgClip: 'text',
-                transform: 'scale(1.2)',
-              }}
-            >
-              Mentorship/Guide
-            </Link>
-          </MenuItem>
-          <MenuItem>
-            <Link
-              href="#contact"
-              className="nav-link"
-              p="0.5rem"
-              _hover={{
-                bgGradient: 'linear(to-b, #ffe838, #fd57bf)',
-                bgClip: 'text',
-                transform: 'scale(1.2)',
-              }}
-            >
-              Contact
-            </Link>
-          </MenuItem>
-        </MenuList>
-        {/* </Show> */}
-      </Menu>
     </Flex>
   );
 };
