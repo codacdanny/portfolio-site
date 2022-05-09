@@ -1,12 +1,4 @@
-import {
-  Box,
-  Container,
-  Flex,
-  Text,
-  Image,
-  Link,
-  Button,
-} from '@chakra-ui/react';
+import { Box, Container, Flex, Text, Image, Button } from '@chakra-ui/react';
 import meme from '../../meme.png';
 import budget from '../../budget.png';
 import pigGame from '../../pig-game.png';
