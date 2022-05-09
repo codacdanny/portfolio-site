@@ -6,7 +6,7 @@ import { GrLinkedin } from 'react-icons/gr';
 import { GoMarkGithub } from 'react-icons/go';
 const Contact = () => {
   return (
-    <Box p="5rem" minW="85%" id="contact">
+    <Box p="5rem" id="contact">
       <Container mx="auto" my="0">
         <Heading as="h2" fontSize="3rem" textAlign="center" mb="5rem">
           Let's Connect
@@ -22,7 +22,12 @@ const Contact = () => {
                 borderRadius: '7px',
               }}
             >
-              <SiWhatsapp size="6rem" />
+              <SiWhatsapp
+                size={{
+                  lg: '2rem',
+                  base: '6rem',
+                }}
+              />
             </Link>
             <Link
               padding="1rem"
@@ -33,7 +38,12 @@ const Contact = () => {
                 borderRadius: '7px',
               }}
             >
-              <FaTwitter size="6rem" />
+              <FaTwitter
+                size={{
+                  lg: '6rem',
+                  base: '2rem',
+                }}
+              />
             </Link>
             <Link
               padding="1rem"
@@ -44,7 +54,12 @@ const Contact = () => {
                 borderRadius: '7px',
               }}
             >
-              <FaFacebookF size="6rem" />
+              <FaFacebookF
+                size={{
+                  lg: '6rem',
+                  base: '2rem',
+                }}
+              />
             </Link>
             <Link
               padding="1rem"
@@ -55,7 +70,12 @@ const Contact = () => {
                 borderRadius: '7px',
               }}
             >
-              <GrLinkedin size="6rem" />
+              <GrLinkedin
+                size={{
+                  lg: '6rem',
+                  base: '2rem',
+                }}
+              />
             </Link>
             <Link
               padding="1rem"
@@ -65,7 +85,16 @@ const Contact = () => {
                 borderRadius: '7px',
               }}
             >
-              <GoMarkGithub size="6rem" />
+              <GoMarkGithub
+                size={{
+                  lg: '6rem',
+                  base: '2rem',
+                }}
+                mr={{
+                  base: '6rem',
+                  lg: '0',
+                }}
+              />
             </Link>
           </Flex>
         </LinkBox>
