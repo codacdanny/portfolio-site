@@ -1,7 +1,7 @@
 import React from 'react';
-import { ChakraProvider, Box, VStack, Flex, Center } from '@chakra-ui/react';
+import { ChakraProvider, Box, VStack, Center } from '@chakra-ui/react';
 
-import { Logo } from './Logo';
+// import { Logo } from './Logo';
 import Nav from './components/header/Nav';
 import HeaderText from './components/header/HeaderText';
 import AboutText from './components/About/AboutText';
