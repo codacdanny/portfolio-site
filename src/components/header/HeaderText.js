@@ -24,12 +24,13 @@ const HeaderText = () => {
           base: '40vh',
           lg: '75vh',
         }}
+        w="100vw"
       >
         <Heading
           as="h1"
           className="fadeInDown"
           fontSize={{
-            base: '2rem',
+            base: '4rem',
             lg: '4.5rem',
             xl: '5.5rem',
           }}
@@ -43,7 +44,7 @@ const HeaderText = () => {
           as="h2"
           className="zoomIn"
           fontSize={{
-            base: '1.5rem',
+            base: '2.5rem',
             lg: '3.5rem',
             xl: '4.5rem',
           }}

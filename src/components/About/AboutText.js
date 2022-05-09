@@ -4,7 +4,7 @@ import React from 'react';
 const AboutText = () => {
   return (
     <Box mb="6rem" id="about">
-      <Container maxW="container.xl" my="0" mx="auto">
+      <Container maxW="89%" my="0" mx="auto">
         <Heading
           as="h2"
           fontSize="3.5rem"
@@ -16,7 +16,7 @@ const AboutText = () => {
           About
         </Heading>
 
-        <Box className="glass" h="100%" mx="6rem">
+        <Box h="100%">
           <Text fontSize="1.8rem" p="4rem" lineHeight="tall">
             Hi my name is Daniel Chinemerem, I am a frontend developer. I am an
             undergraduate studying pure and applied mathematics in FUTO. I
