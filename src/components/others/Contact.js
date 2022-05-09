@@ -8,10 +8,10 @@ const Contact = () => {
   return (
     <Box p="5rem" id="contact" w="100%">
       <Container mx="auto" my="0">
-        <Heading as="h2" fontSize="3rem" textAlign="center" mb="5rem">
+        <Heading as="h2" fontSize="3rem" textAlign="center" mb="4rem">
           Let's Connect
         </Heading>
-        <LinkBox minW="100%" h="100%">
+        <LinkBox h="100%">
           <Flex
             justifyContent="space-around"
             alignItems="center"

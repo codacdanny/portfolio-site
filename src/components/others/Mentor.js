@@ -16,12 +16,13 @@ const Mentor = () => {
         Mentorship/Guide
       </Heading>
       <Container
-        padding="3rem"
-        maxWidth="89%"
+        padding="5rem"
+        maxWidth="100%"
         fontSize="1.8rem"
         fontFamily="Poppins"
+        h="100%"
       >
-        <Text lineHeight="tall">
+        <Text p="2rem" lineHeight="tall">
           I have only been coding for about 3 years now, that might not seem
           like a lot, but during this period I have learned a lot of things, I
           have grown and I have overcome some difficulties. Having a

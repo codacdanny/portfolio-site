@@ -4,7 +4,7 @@ import React from 'react';
 const AboutText = () => {
   return (
     <Box mb="6rem" id="about">
-      <Container maxW="89%" my="0" mx="auto">
+      <Container my="0" mx="auto" padding="5rem" maxWidth="100%">
         <Heading
           as="h2"
           fontSize="3.5rem"

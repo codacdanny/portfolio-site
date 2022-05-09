@@ -1,4 +1,12 @@
-import { Box, Container, Flex, Text, Image, Link } from '@chakra-ui/react';
+import {
+  Box,
+  Container,
+  Flex,
+  Text,
+  Image,
+  Link,
+  Button,
+} from '@chakra-ui/react';
 import meme from '../../meme.png';
 import budget from '../../budget.png';
 import pigGame from '../../pig-game.png';
@@ -40,9 +48,14 @@ const Projects = () => {
               my="2rem"
               objectFit="cover"
             />
-            <Link href="https://github.com/codacdanny/memegenerator">
+            <Button
+              fontSize="1.5rem"
+              px="1.5rem"
+              py="1.9rem"
+              href="https://github.com/codacdanny/memegenerator"
+            >
               Meme Generator
-            </Link>
+            </Button>
           </Box>
 
           <Box textAlign="center" fontSize="2rem">
@@ -54,9 +67,14 @@ const Projects = () => {
               objectFit="cover"
               my="2rem"
             />
-            <Link href="https://github.com/codacdanny/budget_app.git">
+            <Button
+              fontSize="1.5rem"
+              px="1.5rem"
+              py="1.9rem"
+              href="https://github.com/codacdanny/budget_app.git"
+            >
               Budget Calculator
-            </Link>
+            </Button>
           </Box>
           <Box textAlign="center" fontSize="2rem">
             <Image
@@ -68,9 +86,14 @@ const Projects = () => {
               my="2rem"
             />
 
-            <Link href="https://github.com/codacdanny/pig-game.git">
+            <Button
+              href="https://github.com/codacdanny/pig-game.git"
+              fontSize="1.5rem"
+              px="1.5rem"
+              py="1.9rem"
+            >
               Pig Game Project
-            </Link>
+            </Button>
           </Box>
         </Flex>
       </Container>
