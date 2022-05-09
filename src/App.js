@@ -15,13 +15,13 @@ function App() {
   console.log(theme);
   return (
     <ChakraProvider theme={theme}>
-      <Center mx="auto" my="0" w="100vw" p="0rem">
+      <Center mx="auto" my="0" w="100vw">
         <VStack spacing={8}>
           <Nav />
           <Box textAlign="center">
-            <Flex display="flex" flexDir="row">
+            {/* <Flex display="flex" flexDir="row">
               <Logo h="10vmin" pointerEvents="none" opacity="0.3" />
-            </Flex>
+            </Flex> */}
             <HeaderText />
           </Box>
 
