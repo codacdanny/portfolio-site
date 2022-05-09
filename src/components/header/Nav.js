@@ -9,7 +9,7 @@ const Nav = () => {
       top="2rem"
       justifyContent="center"
       alignItems="center"
-      w="100vw"
+      maxWidth="100%"
     >
       <Flex>
         <Box

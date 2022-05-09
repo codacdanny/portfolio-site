@@ -9,14 +9,22 @@ const Projects = () => {
     <Box id="projects">
       <Container
         maxWidth={{
-          base: '90vw',
-          lg: '100vw',
+          base: '100%',
+          lg: '100%',
+        }}
+        padding={{
+          base: '6rem',
+          lg: '5rem',
         }}
       >
         <Text
           as="h2"
           textAlign="center"
-          fontSize="3.5rem"
+          fontSize={{
+            base: '2.5rem',
+            lg: '3.5rem',
+            xl: '4.5rem',
+          }}
           mb="3rem"
           bgGradient="linear(to-l, #FEECE9, #CCD1E4)"
           bgClip="text"

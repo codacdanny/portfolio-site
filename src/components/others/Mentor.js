@@ -7,7 +7,11 @@ const Mentor = () => {
       <Heading
         as="h2"
         textAlign="center"
-        fontSize="3.5rem"
+        fontSize={{
+          base: '2.5rem',
+          lg: '3.5rem',
+          xl: '4.5rem',
+        }}
         mb="2rem"
         bgGradient="linear(to-l, #FEECE9, #CCD1E4)"
         bgClip="text"

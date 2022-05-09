@@ -8,7 +8,16 @@ const Contact = () => {
   return (
     <Box p="5rem" id="contact" w="100%">
       <Container mx="auto" my="0">
-        <Heading as="h2" fontSize="3rem" textAlign="center" mb="4rem">
+        <Heading
+          as="h2"
+          fontSize={{
+            base: '2.5rem',
+            lg: '3rem',
+            xl: '4rem',
+          }}
+          textAlign="center"
+          mb="4rem"
+        >
           Let's Connect
         </Heading>
         <LinkBox h="100%">

@@ -7,7 +7,11 @@ const AboutText = () => {
       <Container my="0" mx="auto" padding="5rem" maxWidth="100%">
         <Heading
           as="h2"
-          fontSize="3.5rem"
+          fontSize={{
+            base: '2.5rem',
+            lg: '3.5rem',
+            xl: '4.5rem',
+          }}
           textAlign="center"
           mb="3rem"
           bgGradient="linear(to-l, #FEECE9, #CCD1E4)"
