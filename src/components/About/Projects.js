@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Text, Image } from '@chakra-ui/react';
+import { Box, Container, Flex, Text, Image, Link } from '@chakra-ui/react';
 import meme from '../../meme.png';
 import budget from '../../budget.png';
 import pigGame from '../../pig-game.png';
@@ -7,7 +7,12 @@ import React from 'react';
 const Projects = () => {
   return (
     <Box id="projects">
-      <Container maxWidth="100vw">
+      <Container
+        maxWidth={{
+          base: '90vw',
+          lg: '100vw',
+        }}
+      >
         <Text
           as="h2"
           textAlign="center"
@@ -32,9 +37,12 @@ const Projects = () => {
               alt="meme"
               height="30rem"
               width="35rem"
+              my="2rem"
               objectFit="cover"
             />
-            <Text>Meme Generator</Text>
+            <Link href="https://github.com/codacdanny/memegenerator">
+              Meme Generator
+            </Link>
           </Box>
 
           <Box textAlign="center" fontSize="2rem">
@@ -44,29 +52,25 @@ const Projects = () => {
               height="30rem"
               width="35rem"
               objectFit="cover"
+              my="2rem"
             />
-            <Text>Budget Calculator</Text>
+            <Link href="https://github.com/codacdanny/budget_app.git">
+              Budget Calculator
+            </Link>
           </Box>
           <Box textAlign="center" fontSize="2rem">
-            <Container position="relative">
-              <Image
-                src={pigGame}
-                alt="pig game app"
-                height="30rem"
-                width="35rem"
-                objectFit="cover"
-              />
-              <Text
-                as="span"
-                pos="absolute"
-                top="40%"
-                left="35%"
-                fontSize="3rem"
-              >
-                Click Me
-              </Text>
-            </Container>
-            <Text>Pig Game Project</Text>
+            <Image
+              src={pigGame}
+              alt="pig game app"
+              height="30rem"
+              width="35rem"
+              objectFit="cover"
+              my="2rem"
+            />
+
+            <Link href="https://github.com/codacdanny/pig-game.git">
+              Pig Game Project
+            </Link>
           </Box>
         </Flex>
       </Container>
