@@ -10,7 +10,7 @@ const HeaderText = () => {
         lg: '14%',
       }}
       left={{
-        base: '46%',
+        base: '50%',
         lg: '50%',
       }}
       zIndex="banner"
