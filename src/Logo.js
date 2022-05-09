@@ -58,7 +58,7 @@ export const Logo = props => {
         src={htmllogo}
         {...props}
         mt={{ base: '85%', lg: '30%' }}
-        mr={{ base: '16%', lg: '12%' }}
+        mr={{ base: '10%', lg: '12%' }}
       />
       <Image
         animation={animation}
