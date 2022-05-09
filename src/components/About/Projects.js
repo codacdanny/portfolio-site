@@ -49,12 +49,9 @@ const Projects = () => {
               objectFit="cover"
             />
             <Button
-              display="flex"
-              alignItems="center"
-              justifyContent="center"
               fontSize="1.5rem"
               px="1.5rem"
-              py="1.9rem"
+              py="1.55rem"
               href="https://github.com/codacdanny/memegenerator"
               colorScheme="blue"
             >
@@ -76,11 +73,8 @@ const Projects = () => {
             />
             <Button
               fontSize="1.5rem"
-              display="flex"
-              alignItems="center"
-              justifyContent="center"
               px="1.5rem"
-              py="1.9rem"
+              py="1.55rem"
               href="https://github.com/codacdanny/budget_app.git"
               colorScheme="blue"
             >
@@ -102,13 +96,10 @@ const Projects = () => {
             />
 
             <Button
-              display="flex"
-              alignItems="center"
-              justifyContent="center"
               href="https://github.com/codacdanny/pig-game.git"
               fontSize="1.5rem"
               px="1.5rem"
-              py="1.9rem"
+              py="1.55rem"
               colorScheme="blue"
             >
               Pig Game Project
