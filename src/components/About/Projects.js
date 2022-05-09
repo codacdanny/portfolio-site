@@ -49,6 +49,9 @@ const Projects = () => {
               objectFit="cover"
             />
             <Button
+              display="flex"
+              alignItems="center"
+              justifyContent="center"
               fontSize="1.5rem"
               px="1.5rem"
               py="1.9rem"
@@ -73,6 +76,9 @@ const Projects = () => {
             />
             <Button
               fontSize="1.5rem"
+              display="flex"
+              alignItems="center"
+              justifyContent="center"
               px="1.5rem"
               py="1.9rem"
               href="https://github.com/codacdanny/budget_app.git"
@@ -96,6 +102,9 @@ const Projects = () => {
             />
 
             <Button
+              display="flex"
+              alignItems="center"
+              justifyContent="center"
               href="https://github.com/codacdanny/pig-game.git"
               fontSize="1.5rem"
               px="1.5rem"
