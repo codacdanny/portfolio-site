@@ -1,7 +1,7 @@
 import React from 'react';
-import { ChakraProvider, Box, VStack, Center } from '@chakra-ui/react';
+import { ChakraProvider, Box, VStack, Flex, Center } from '@chakra-ui/react';
 
-// import { Logo } from './Logo';
+import { Logo } from './Logo';
 import Nav from './components/header/Nav';
 import HeaderText from './components/header/HeaderText';
 import AboutText from './components/About/AboutText';
@@ -19,9 +19,9 @@ function App() {
         <VStack spacing={8}>
           <Nav />
           <Box textAlign="center">
-            {/* <Flex display="flex" flexDir="row">
-              <Logo h="10vmin" pointerEvents="none" opacity="0.3" />
-            </Flex> */}
+            <Flex flexDir="row">
+              <Logo h="3rem" pointerEvents="none" opacity="0.4" />
+            </Flex>
             <HeaderText />
           </Box>
 
