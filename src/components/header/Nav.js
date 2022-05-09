@@ -15,7 +15,7 @@ import { HamburgerIcon } from '@chakra-ui/icons';
 
 const Nav = () => {
   return (
-    <Flex pos="relative" top="2rem" justifyContent="space-between" w="100vw">
+    <Flex pos="relative" top="2rem" justifyContent="space-between" w="90vw">
       <Text
         visibility={{
           base: 'hidden',
@@ -34,7 +34,6 @@ const Nav = () => {
         >
           <Link
             href="#about"
-            mr="3rem"
             className="nav-link"
             p="0.5rem"
             _hover={{
@@ -94,8 +93,7 @@ const Nav = () => {
           icon={<HamburgerIcon />}
           variant="outline"
           fontSize="2rem"
-          p="1rem"
-          mr="0rem"
+          p="0.3rem"
           visibility={{
             base: 'visible',
             lg: 'hidden',
@@ -112,7 +110,6 @@ const Nav = () => {
           <MenuItem>
             <Link
               href="#about"
-              mr="3rem"
               className="nav-link"
               p="0.5rem"
               _hover={{
@@ -127,7 +124,6 @@ const Nav = () => {
           <MenuItem>
             <Link
               href="#projects"
-              mr="3rem"
               className="nav-link"
               p="0.5rem"
               _hover={{
@@ -142,7 +138,6 @@ const Nav = () => {
           <MenuItem>
             <Link
               href="#mentor"
-              mr="3rem"
               className="nav-link"
               p="0.5rem"
               _hover={{
@@ -157,7 +152,6 @@ const Nav = () => {
           <MenuItem>
             <Link
               href="#contact"
-              mr="3rem"
               className="nav-link"
               p="0.5rem"
               _hover={{
