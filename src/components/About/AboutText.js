@@ -4,7 +4,15 @@ import React from 'react';
 const AboutText = () => {
   return (
     <Box mb="6rem" id="about">
-      <Container my="0" mx="auto" padding="5rem" maxWidth="100%">
+      <Container
+        my="0"
+        mx="auto"
+        padding={{
+          base: '0.5rem',
+          lg: '5rem',
+        }}
+        maxWidth="100%"
+      >
         <Heading
           as="h2"
           fontSize={{
@@ -21,7 +29,14 @@ const AboutText = () => {
         </Heading>
 
         <Box h="100%">
-          <Text fontSize="1.8rem" p="4rem" lineHeight="tall">
+          <Text
+            fontSize="1.6rem"
+            p={{
+              base: '1rem',
+              lg: '4rem',
+            }}
+            lineHeight="tall"
+          >
             Hi my name is Daniel Chinemerem, I am a frontend developer. I am an
             undergraduate studying pure and applied mathematics in FUTO. I
             started my coding career 2 years ago, I have interned with a few

@@ -8,12 +8,9 @@ const Projects = () => {
   return (
     <Box id="projects">
       <Container
-        maxWidth={{
-          base: '100%',
-          lg: '100%',
-        }}
+        maxWidth="100%"
         padding={{
-          base: '6rem',
+          base: '0.5rem',
           lg: '5rem',
         }}
       >
@@ -44,7 +41,10 @@ const Projects = () => {
               src={meme}
               alt="meme"
               height="30rem"
-              width="35rem"
+              width={{
+                base: '25rem',
+                lg: '35rem',
+              }}
               my="2rem"
               objectFit="cover"
             />
@@ -64,7 +64,10 @@ const Projects = () => {
               src={budget}
               alt="budget app"
               height="30rem"
-              width="35rem"
+              width={{
+                base: '25rem',
+                lg: '35rem',
+              }}
               objectFit="cover"
               my="2rem"
             />
@@ -83,7 +86,10 @@ const Projects = () => {
               src={pigGame}
               alt="pig game app"
               height="30rem"
-              width="35rem"
+              width={{
+                base: '25rem',
+                lg: '35rem',
+              }}
               objectFit="cover"
               my="2rem"
             />

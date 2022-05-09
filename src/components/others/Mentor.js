@@ -3,7 +3,7 @@ import React from 'react';
 
 const Mentor = () => {
   return (
-    <Box align="center" id="mentor">
+    <Box align="center" id="mentor" p="0">
       <Heading
         as="h2"
         textAlign="center"
@@ -20,13 +20,22 @@ const Mentor = () => {
         Mentorship/Guide
       </Heading>
       <Container
-        padding="5rem"
+        padding={{
+          base: '0.5rem',
+          lg: '5rem',
+        }}
         maxWidth="100%"
-        fontSize="1.8rem"
+        fontSize="1.6rem"
         fontFamily="Poppins"
         h="100%"
       >
-        <Text p="2rem" lineHeight="tall">
+        <Text
+          p={{
+            base: '1rem',
+            lg: '2rem',
+          }}
+          lineHeight="tall"
+        >
           I have only been coding for about 3 years now, that might not seem
           like a lot, but during this period I have learned a lot of things, I
           have grown and I have overcome some difficulties. Having a
