@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Text, Image, Button } from '@chakra-ui/react';
+import { Box, Container, Flex, Text, Image, Link } from '@chakra-ui/react';
 import meme from '../../meme.png';
 import budget from '../../budget.png';
 import pigGame from '../../pig-game.png';
@@ -48,14 +48,19 @@ const Projects = () => {
               my="2rem"
               objectFit="cover"
             />
-            <Button
-              fontSize="1.5rem"
-              p="1.5rem"
+            <Link
               href="https://github.com/codacdanny/memegenerator"
-              colorScheme="blue"
+              isExternal
+              fontSize="1.5rem"
+              p="1rem"
+              bgColor="blue.800"
+              borderRadius="5px"
+              _hover={{
+                bgColor: 'blue.400',
+              }}
             >
               Meme Generator
-            </Button>
+            </Link>
           </Box>
 
           <Box textAlign="center" fontSize="2rem">
@@ -70,14 +75,19 @@ const Projects = () => {
               objectFit="cover"
               my="2rem"
             />
-            <Button
-              fontSize="1.5rem"
-              p="1.5rem"
+            <Link
               href="https://github.com/codacdanny/budget_app.git"
-              colorScheme="blue"
+              isExternal
+              fontSize="1.5rem"
+              p="1rem"
+              bgColor="blue.800"
+              borderRadius="5px"
+              _hover={{
+                bgColor: 'blue.400',
+              }}
             >
               Budget Calculator
-            </Button>
+            </Link>
           </Box>
           <Box textAlign="center" fontSize="2rem">
             <Image
@@ -93,14 +103,19 @@ const Projects = () => {
               my="2rem"
             />
 
-            <Button
+            <Link
               href="https://github.com/codacdanny/pig-game.git"
+              isExternal
               fontSize="1.5rem"
-              p="1.5rem"
-              colorScheme="blue"
+              p="1rem"
+              bgColor="blue.800"
+              borderRadius="5px"
+              _hover={{
+                bgColor: 'blue.400',
+              }}
             >
               Pig Game Project
-            </Button>
+            </Link>
           </Box>
         </Flex>
       </Container>

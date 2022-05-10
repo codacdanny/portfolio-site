@@ -35,6 +35,7 @@ const Contact = () => {
             }}
           >
             <Link
+              isExternal
               padding="1rem"
               href="https://wa.me/+2348156438520"
               mr={{
@@ -49,6 +50,7 @@ const Contact = () => {
               <SiWhatsapp />
             </Link>
             <Link
+              isExternal
               padding="1rem"
               href="https://twitter.com/Danny__Presh"
               mr={{
@@ -63,6 +65,7 @@ const Contact = () => {
               <FaTwitter />
             </Link>
             <Link
+              isExternal
               padding="1rem"
               href="https://web.facebook.com/precious.daniel.7731/"
               mr={{
@@ -77,6 +80,7 @@ const Contact = () => {
               <FaFacebookF />
             </Link>
             <Link
+              isExternal
               padding="1rem"
               href="https://www.linkedin.com/in/daniel-chinemerem-bb1757209/"
               mr={{
@@ -91,6 +95,7 @@ const Contact = () => {
               <GrLinkedin />
             </Link>
             <Link
+              isExternal
               padding="1rem"
               href="https://github.com/codacdanny"
               _hover={{
