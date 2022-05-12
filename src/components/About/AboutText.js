@@ -40,17 +40,17 @@ const AboutText = () => {
             }}
             lineHeight="tall"
           >
-            Hi my name is Daniel Chinemerem, I am a frontend developer. I am an
+            Hi! My name is Daniel Chinemerem a frontend developer and an
             undergraduate studying pure and applied mathematics in FUTO. I
             started my coding career 2 years ago, I have interned with a few
             companies where I collaborated with other developers and I have been
-            mentored by some great developers. I am currently working on
-            improving my skill set and becoming a fullstack developer in no
-            time. Currently, I use HTML, CSS, Javascript and front technologies
-            like React and chakra UI to produce responsive websites and web apps
-            that provide users the best and most appropriate experience suited
-            for their device. I am a mathematician, critical thinker and also
-            have basic knowledge of C and shell scripting.
+            mentored by some great developers. I am a mathematician and a
+            critical thinker. I use HTML, CSS, Javascript and other front-end
+            technologies like React and chakra UI to produce responsive websites
+            and web apps that provide users the best and most appropriate
+            experience suited for their devices and also have basic knowledge of
+            C and shell scripting. I am currently working on improving my skill
+            set and becoming a fullstack developer in no time.
           </Text>
         </Box>
       </Container>
