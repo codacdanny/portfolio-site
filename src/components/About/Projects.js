@@ -1,7 +1,7 @@
 import { Box, Container, Flex, Text, Image, Link } from '@chakra-ui/react';
 import meme from '../../meme.png';
 import budget from '../../budget.png';
-import theGrader from '../../theGrader';
+import theGrader from '../../theGrader.png';
 import React from 'react';
 
 const Projects = () => {
