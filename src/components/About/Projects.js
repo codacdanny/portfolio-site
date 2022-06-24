@@ -38,18 +38,20 @@ const Projects = () => {
         >
           <Box textAlign="center" fontSize="2rem">
             <Image
-              src={meme}
-              alt="meme"
+              src={theGrader}
+              alt="CGPA calculator"
               height="30rem"
               width={{
                 base: '25rem',
+
                 lg: '35rem',
               }}
-              my="2rem"
               objectFit="cover"
+              my="2rem"
             />
+
             <Link
-              href="https://github.com/codacdanny/memegenerator"
+              href="https://the-grader.netlify.app"
               isExternal
               fontSize="1.5rem"
               p="1rem"
@@ -59,10 +61,9 @@ const Projects = () => {
                 bgColor: 'blue.400',
               }}
             >
-              Meme Generator
+              CGPA Calculator
             </Link>
           </Box>
-
           <Box textAlign="center" fontSize="2rem">
             <Image
               src={budget}
@@ -89,22 +90,21 @@ const Projects = () => {
               Budget Calculator
             </Link>
           </Box>
+
           <Box textAlign="center" fontSize="2rem">
             <Image
-              src={theGrader}
-              alt="CGPA calculator"
+              src={meme}
+              alt="meme"
               height="30rem"
               width={{
                 base: '25rem',
-
                 lg: '35rem',
               }}
-              objectFit="cover"
               my="2rem"
+              objectFit="cover"
             />
-
             <Link
-              href="https://the-grader.netlify.app"
+              href="https://github.com/codacdanny/memegenerator"
               isExternal
               fontSize="1.5rem"
               p="1rem"
@@ -114,7 +114,7 @@ const Projects = () => {
                 bgColor: 'blue.400',
               }}
             >
-              CGPA Calculator
+              Meme Generator
             </Link>
           </Box>
         </Flex>
