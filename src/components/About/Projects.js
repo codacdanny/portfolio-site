@@ -1,7 +1,7 @@
 import { Box, Container, Flex, Text, Image, Link } from '@chakra-ui/react';
 import meme from '../../meme.png';
 import budget from '../../budget.png';
-import pigGame from '../../pig-game.png';
+import theGrader from '../../theGrader';
 import React from 'react';
 
 const Projects = () => {
@@ -91,8 +91,8 @@ const Projects = () => {
           </Box>
           <Box textAlign="center" fontSize="2rem">
             <Image
-              src={pigGame}
-              alt="pig game app"
+              src={theGrader}
+              alt="CGPA calculator"
               height="30rem"
               width={{
                 base: '25rem',
@@ -104,7 +104,7 @@ const Projects = () => {
             />
 
             <Link
-              href="https://github.com/codacdanny/pig-game.git"
+              href="https://the-grader.netlify.app"
               isExternal
               fontSize="1.5rem"
               p="1rem"
@@ -114,7 +114,7 @@ const Projects = () => {
                 bgColor: 'blue.400',
               }}
             >
-              Pig Game Project
+              CGPA Calculator
             </Link>
           </Box>
         </Flex>
