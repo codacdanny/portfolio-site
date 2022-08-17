@@ -104,7 +104,7 @@ const Projects = () => {
               objectFit="cover"
             />
             <Link
-              href="https://github.com/codacdanny/memegenerator"
+              href="https://memegenerator-dusky.vercel.app/"
               isExternal
               fontSize="1.5rem"
               p="1rem"
