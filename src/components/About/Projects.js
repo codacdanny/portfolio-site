@@ -77,7 +77,7 @@ const Projects = () => {
               my="2rem"
             />
             <Link
-              href="https://github.com/codacdanny/budget_app.git"
+              href="https://quick-meet-eight.vercel.app"
               isExternal
               fontSize="1.5rem"
               p="1rem"
@@ -87,7 +87,7 @@ const Projects = () => {
                 bgColor: 'blue.400',
               }}
             >
-              Budget Calculator
+              Video Chat App
             </Link>
           </Box>
 

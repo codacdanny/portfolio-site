@@ -2,6 +2,8 @@ import { Box, Container, Heading, Text } from '@chakra-ui/react';
 import React from 'react';
 
 const AboutText = () => {
+  const date = new Date();
+  const curDate = date.getFullYear() - 2020;
   return (
     <Box mb="6rem" id="about">
       <Container
@@ -40,11 +42,11 @@ const AboutText = () => {
             }}
             lineHeight="tall"
           >
-            Hi! My name is Daniel Chinemerem a frontend developer and an
+            Hi! My name is Daniel Chinemerem a software developer and an
             undergraduate studying pure and applied mathematics in FUTO. I
-            started my coding career 2 years ago, I have interned with a few
-            companies where I collaborated with other developers and I have been
-            mentored by some great developers. I am a mathematician and a
+            started my coding career {curDate} years ago, I have interned with a
+            few companies where I collaborated with other developers and I have
+            been mentored by some great developers. I am a mathematician and a
             critical thinker. I use HTML, CSS, Javascript and other front-end
             technologies like React and chakra UI to produce responsive websites
             and web apps that provide users the best and most appropriate

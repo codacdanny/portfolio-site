@@ -2,6 +2,8 @@ import { Container, Box, Text, Heading } from '@chakra-ui/react';
 import React from 'react';
 
 const Mentor = () => {
+  const date = new Date();
+  const curDate = date.getFullYear() - 2020;
   return (
     <Box align="center" id="mentor" p="0">
       <Heading
@@ -39,9 +41,9 @@ const Mentor = () => {
           }}
           lineHeight="tall"
         >
-          I have only been coding for about 2 years now, that might not seem
-          like a lot, but during this period I have learned a lot of things, I
-          have grown and I have overcome some difficulties. Having a
+          I have only been coding for about {curDate} years now, that might not
+          seem like a lot, but during this period I have learned a lot of
+          things, I have grown and I have overcome some difficulties. Having a
           mentor/guide in this career is really important especially if you are
           a self-taught developer. I remember back in 2020 while I was taking
           Jonas Schedtmann’s course on Advanced CSS. In the first Project
