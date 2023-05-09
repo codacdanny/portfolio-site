@@ -34,6 +34,7 @@ const HeaderText = () => {
           }}
           fontWeight="medium"
           mb="1.7rem"
+          fontFamily="cursive"
         >
           Hi, I'm Daniel.
         </Heading>
@@ -41,8 +42,14 @@ const HeaderText = () => {
           <Button
             fontWeight="medium"
             textColor="#000"
-            p="1.5rem"
-            fontSize="1.5rem"
+            p={{
+              base: '1.2rem',
+              lg: '1.5rem',
+            }}
+            fontSize={{
+              base: '1.0rem',
+              lg: '1.5rem',
+            }}
             bgGradient="linear-gradient(to top, #ffe838, #fd57bf)"
             colorScheme="pink"
           >
