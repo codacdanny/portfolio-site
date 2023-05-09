@@ -39,6 +39,8 @@ const HeaderText = () => {
         </Heading>
         <a href={resume} download="Daniel Chinemerem Resume.pdf">
           <Button
+            fontWeight="medium"
+            textColor="#000"
             p="1.5rem"
             fontSize="1.5rem"
             bgGradient="linear-gradient(to top, #ffe838, #fd57bf)"

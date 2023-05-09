@@ -21,7 +21,7 @@ function App() {
       >
         <Box textAlign="center">
           <Flex flexDir="row">
-            <Logo h="3rem" pointerEvents="none" opacity="0.4" />
+            <Logo h="auto" w="4rem" pointerEvents="none" opacity="0.6" />
           </Flex>
           <HeaderText />
         </Box>
