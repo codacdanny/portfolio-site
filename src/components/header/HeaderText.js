@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Flex, Heading, Button } from '@chakra-ui/react';
-
+import resume from '../../dan.pdf';
 const HeaderText = () => {
   return (
     <Box
@@ -17,6 +17,7 @@ const HeaderText = () => {
         justify="center"
         alignItems="center"
         flexDir="column"
+        gap="2rem"
         h={{
           base: '70vh',
           lg: '95vh',
@@ -36,12 +37,16 @@ const HeaderText = () => {
         >
           Hi, I'm Daniel.
         </Heading>
-        <Button
-          bgGradient="linear-gradient(to top, #ffe838, #fd57bf)"
-          colorScheme="pink"
-        >
-          MY RESUME
-        </Button>
+        <a href={resume} download="Daniel Chinemerem Resume.pdf">
+          <Button
+            p="1.5rem"
+            fontSize="1.5rem"
+            bgGradient="linear-gradient(to top, #ffe838, #fd57bf)"
+            colorScheme="pink"
+          >
+            MY RESUME
+          </Button>
+        </a>
       </Flex>
     </Box>
   );
