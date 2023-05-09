@@ -1,68 +1,23 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Chinemerem Daniel Portfolio
 
-## Available Scripts
+Hello and welcome to my portfolio app! My name is Chinemerem Daniel and I am a Software Engineer. This portfolio showcases some of my recent projects and provides a brief overview of my skills and experience. [Click here to see my portfolio](https://danielchinemerem.netlify.app/)
 
-In the project directory, you can run:
+## Technologies Used
 
-### `npm start`
+This portfolio was built using React and Chakra UI, two powerful tools that enable fast and efficient web development. The app is fully responsive and optimized for both desktop and mobile devices.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Project Showcase
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+This portfolio app features several of my recent projects, including:
 
-### `npm test`
+- CGPA Calculator: This is a dynamic CGPA calculator for 5.0 scale that automatically callculates your GPA and CGPA using your Grades and course units. This is built for Nigerian Public Universities. [CGPA CALCULATOR](https://the-grader.netlify.app/)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Mememify: This is a simple meme generator app that suggests 100 memes for you to customize/caption them, you can also upload your own personal image and customize it. [Mememify](https://memegenerator-dusky.vercel.app/)
 
-### `npm run build`
+- Quick-Meet: This is a video chat web app that can be used to host meetings or communicate with loved ones in the case other video platforms are not available. [quikMeet](https://quick-meet-eight.vercel.app/)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+These projects demonstrate my proficiency in various web development technologies like firebase, agora, HTML5 CANVAS react, typescript, Algorithms and my ability to create high-quality applications that meet client requirements.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Contact Information
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Thank you for visiting my portfolio app! If you have any questions or would like to learn more about my work, please feel free to contact me at danielchinemerem302@gmail.com.
