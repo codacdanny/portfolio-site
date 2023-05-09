@@ -1,13 +1,13 @@
 import React from 'react';
-import { Box, Flex, Heading } from '@chakra-ui/react';
+import { Box, Flex, Heading, Button } from '@chakra-ui/react';
 
 const HeaderText = () => {
   return (
     <Box
       className="center"
       top={{
-        base: '3%',
-        lg: '14%',
+        base: '13%',
+        lg: '20%',
       }}
       left="50%"
       zIndex="banner"
@@ -18,8 +18,8 @@ const HeaderText = () => {
         alignItems="center"
         flexDir="column"
         h={{
-          base: '40vh',
-          lg: '75vh',
+          base: '70vh',
+          lg: '95vh',
         }}
         w="100%"
       >
@@ -36,21 +36,12 @@ const HeaderText = () => {
         >
           Hi, I'm Daniel.
         </Heading>
-
-        <Heading
-          as="h2"
-          className="zoomIn"
-          fontSize={{
-            base: '1.5rem',
-            lg: '3.5rem',
-            xl: '4.5rem',
-          }}
-          fontWeight="light"
-          fontFamily="cursive"
-          p="1rem"
+        <Button
+          bgGradient="linear-gradient(to top, #ffe838, #fd57bf)"
+          colorScheme="pink"
         >
-          Let's get to know me.
-        </Heading>
+          MY RESUME
+        </Button>
       </Flex>
     </Box>
   );

@@ -29,14 +29,14 @@ const Projects = () => {
           Projects
         </Text>
         <Flex
-          gap="1rem"
+          gap="3rem"
           justifyContent="center"
           flexDir={{
             base: 'column',
             lg: 'row',
           }}
         >
-          <Box textAlign="center" fontSize="2rem">
+          <Flex textAlign="center" fontSize="2rem" flexDir="column">
             <Image
               src={theGrader}
               alt="CGPA calculator"
@@ -63,8 +63,8 @@ const Projects = () => {
             >
               CGPA Calculator
             </Link>
-          </Box>
-          <Box textAlign="center" fontSize="2rem">
+          </Flex>
+          <Flex textAlign="center" fontSize="2rem" flexDir="column">
             <Image
               src={budget}
               alt="budget app"
@@ -89,9 +89,9 @@ const Projects = () => {
             >
               Video Chat App
             </Link>
-          </Box>
+          </Flex>
 
-          <Box textAlign="center" fontSize="2rem">
+          <Flex textAlign="center" fontSize="2rem" flexDir="column">
             <Image
               src={meme}
               alt="meme"
@@ -116,7 +116,7 @@ const Projects = () => {
             >
               Meme Generator
             </Link>
-          </Box>
+          </Flex>
         </Flex>
       </Container>
     </Box>
