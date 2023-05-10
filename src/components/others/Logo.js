@@ -23,7 +23,7 @@ export const Logo = props => {
 
   const animation = prefersReducedMotion
     ? undefined
-    : `${spin}  infinite 15s linear`;
+    : `${spin}  infinite 12s linear`;
 
   return (
     <Flex
@@ -48,7 +48,7 @@ export const Logo = props => {
         animation={animation}
         src={logo}
         {...props}
-        mr={{
+        ml={{
           base: '5%',
         }}
       />
@@ -69,14 +69,14 @@ export const Logo = props => {
         src={htmllogo}
         {...props}
         mt={{ base: '85%', lg: '30%' }}
-        mr={{ base: '10%', lg: '12%' }}
+        mr={{ base: '5%', lg: '9%' }}
       />
       <Image
         animation={animation}
         src={reactlogo}
         {...props}
         mt={{ base: '90%', lg: '30%' }}
-        mr={{ base: '25%', lg: '10%' }}
+        mr={{ base: '15%', lg: '10%' }}
       />
       <Image
         animation={animation}
