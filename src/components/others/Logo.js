@@ -5,12 +5,13 @@ import {
   usePrefersReducedMotion,
   Flex,
 } from '@chakra-ui/react';
-import logo from './logo.svg';
-import csslogo from './components/svg/css3.svg';
-import gitlogo from './components/svg/git.svg';
-import htmllogo from './components/svg/html5.svg';
-import jslogo from './components/svg/js.svg';
-import reactlogo from './components/svg/react.svg';
+import logo from '../svg/logo.svg';
+
+import csslogo from '../svg/css3.svg';
+import gitlogo from '../svg/git.svg';
+import htmllogo from '../svg/html5.svg';
+import jslogo from '../svg/js.svg';
+import reactlogo from '../svg/react.svg';
 
 const spin = keyframes`
   from { transform:  rotate(0deg); }
@@ -43,7 +44,14 @@ export const Logo = props => {
       zIndex="hide"
       mt="5rem"
     >
-      <Image animation={animation} src={logo} {...props} />
+      <Image
+        animation={animation}
+        src={logo}
+        {...props}
+        mr={{
+          base: '5%',
+        }}
+      />
       <Image
         animation={animation}
         src={csslogo}
